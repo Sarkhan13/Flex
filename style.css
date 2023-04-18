@@ -5,16 +5,17 @@ body{
 }
 
 .container {
-    border: 3px red solid;
+    border: 3px black solid;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .item{
     height: 120px;
     width: 300px;
-    border: 1px solid black;
+    
 }
 
 .item1 {
