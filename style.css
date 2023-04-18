@@ -6,11 +6,24 @@ body{
 
 .container {
     border: 3px red solid;
+    display: flex;
 }
 
 .item{
     height: 120px;
     width: 300px;
-    border: 1px black solid;
+    
+}
+
+.item1 {
+    background-color: red;
+}
+
+.item2 {
+    background-color: yellow;
+}
+
+.item3 {
+    background-color: green;
 }
 
